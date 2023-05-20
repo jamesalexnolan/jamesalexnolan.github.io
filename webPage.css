@@ -526,7 +526,7 @@ header {
         margin-block-start: 4em;
     }
 
-    .project-content .exclude{
+    .project-content.exclude{
         width: 500px;
     }
 }
