@@ -428,6 +428,8 @@ header {
 
 .about-me-text {
     margin-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* Mobile */
@@ -500,29 +502,29 @@ header {
 
     .project-text {
         font-size: 15px !important;
-        width: 70% !important;
+        width: 80% !important;
     }
 
     .project-content:not(.exclude) {
         flex-direction: column;
-      }
-    
-      .col-1:not(.exclude) {
+    }
+
+    .col-1:not(.exclude) {
         order: 2 !important;
         flex: 0 !important;
-      }
-    
-      .col-2:not(.exclude) {
+    }
+
+    .col-2:not(.exclude) {
         order: 1 !important;
         justify-content: center;
         align-items: center;
-      }
+    }
 
-      .arrow-up,
-      .arrow-down {
-          margin-right: 50px;
-          margin-block-start: 4em;
-      }
+    .arrow-up,
+    .arrow-down {
+        margin-right: 50px;
+        margin-block-start: 4em;
+    }
 }
 
 /* Tablet */
