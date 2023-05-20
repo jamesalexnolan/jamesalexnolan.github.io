@@ -158,7 +158,7 @@ textarea {
 
 textarea {
     resize: none;
-    height: 250px;
+    height: 100px;
 }
 
 input[type="submit"] {
