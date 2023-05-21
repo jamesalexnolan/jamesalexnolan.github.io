@@ -514,6 +514,7 @@ header {
     .col-1:not(.exclude) {
         order: 2 !important;
         flex: 0 !important;
+
     }
 
     .col-2:not(.exclude) {
@@ -528,8 +529,12 @@ header {
         margin-block-start: 4em;
     }
 
-    .project-content.exclude{
+    .project-content.exclude {
         width: 350px;
+    }
+
+    .project-p-text {
+        margin-top: 15px;
     }
 }
 
