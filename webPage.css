@@ -605,6 +605,12 @@ header {
         margin-right: 50px;
         margin-block-start: 4em;
     }
+
+    .contact-info>p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
 
 /* Desktop */
@@ -621,4 +627,8 @@ header {
         width: 1062px;
     }
 
+    .contact-info {
+        justify-content: space-around;
+        flex-direction: revert !important;
+    }
 }
