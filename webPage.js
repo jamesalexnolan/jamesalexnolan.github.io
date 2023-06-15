@@ -18,26 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     //PROJECTS PAGE//
-    //Danone accordion//
-    // var danoneArrow = document.querySelector('.danoneArrow');
-    // if (danoneArrow) {
-    //     danoneArrow.addEventListener('click', function () {
-    //         if (danoneArrow && danoneArrow.classList.contains('arrow-up')) {
-    //             document.querySelectorAll('.project-content')[1].style.display = 'none';
-    //             document.querySelectorAll('.project-content')[2].style.display = 'none';
-    //             document.querySelectorAll('.project-content')[3].style.display = 'none';
-    //             danoneArrow.classList.remove('arrow-up');
-    //             danoneArrow.classList.add('arrow-down');
-    //         } else if (danoneArrow && danoneArrow.classList.contains('arrow-down')) {
-    //             document.querySelectorAll('.project-content')[1].style.display = '';
-    //             document.querySelectorAll('.project-content')[2].style.display = '';
-    //             document.querySelectorAll('.project-content')[3].style.display = '';
-    //             danoneArrow.classList.remove('arrow-down');
-    //             danoneArrow.classList.add('arrow-up');
-    //         }
-    //     });
-    // }
-
     var danoneArrow = document.querySelector('.danoneArrow');
     if (danoneArrow) {
         danoneArrow.addEventListener('click', function () {
@@ -59,27 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     //Signify accordion//
-    // var signifyArrow = document.querySelector('.signifyArrow');
-    // if (signifyArrow) {
-    //     signifyArrow.addEventListener('click', function () {
-    //         if (signifyArrow && signifyArrow.classList.contains('arrow-up')) {
-    //             document.querySelectorAll('.project-content')[5].style.display = 'none';
-    //             document.querySelectorAll('.project-content')[6].style.display = 'none';
-    //             document.querySelectorAll('.project-content')[7].style.display = 'none';
-    //             document.querySelectorAll('.project-content')[8].style.display = 'none';
-    //             signifyArrow.classList.remove('arrow-up');
-    //             signifyArrow.classList.add('arrow-down');
-    //         } else if (signifyArrow && signifyArrow.classList.contains('arrow-down')) {
-    //             document.querySelectorAll('.project-content')[5].style.display = '';
-    //             document.querySelectorAll('.project-content')[6].style.display = '';
-    //             document.querySelectorAll('.project-content')[7].style.display = '';
-    //             document.querySelectorAll('.project-content')[8].style.display = '';
-    //             signifyArrow.classList.remove('arrow-down');
-    //             signifyArrow.classList.add('arrow-up');
-    //         }
-    //     });
-    // }
-
     var signifyArrow = document.querySelector('.signifyArrow');
     if (signifyArrow) {
         signifyArrow.addEventListener('click', function () {
@@ -100,21 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
     //Virgin accordion//
-    // var virginArrow = document.querySelector('.virginArrow');
-    //if (virginArrow) {
-    //  virginArrow.addEventListener('click', function () {
-    //    if (virginArrow && virginArrow.classList.contains('arrow-up')) {
-    //      document.querySelectorAll('.project-content')[10].style.display = 'none';
-    //    virginArrow.classList.remove('arrow-up');
-    //  virginArrow.classList.add('arrow-down');
-    // } else if (virginArrow && virginArrow.classList.contains('arrow-down')) {
-    //   document.querySelectorAll('.project-content')[10].style.display = '';
-    //  virginArrow.classList.remove('arrow-down');
-    //  virginArrow.classList.add('arrow-up');
-    // }
-    // });
-    // }
-
     var virginArrow = document.querySelector('.virginArrow');
     if (virginArrow) {
         virginArrow.addEventListener('click', function () {
