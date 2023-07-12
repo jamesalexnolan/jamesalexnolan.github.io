@@ -492,7 +492,6 @@ header {
 
     .aboutMe>p {
         width: 90%;
-        display: grid;
     }
 
     .about-me-text {
