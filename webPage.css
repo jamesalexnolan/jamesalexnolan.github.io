@@ -594,7 +594,6 @@ header {
 
     .aboutMe>p {
         width: 90%;
-        display: grid;
     }
 
     .project-text {
