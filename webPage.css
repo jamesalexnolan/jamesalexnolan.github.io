@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: black;
+    color: #5c62ff;
     text-decoration: none;
 }
 
@@ -260,14 +260,10 @@ input[type="submit"]:hover {
 .nav-item:hover {
     cursor: pointer;
     font-style: italic;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.5);
-    opacity: 0.75;
 }
 
 .selected {
     font-style: italic;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.5);
-    opacity: 0.75;
 }
 
 .main-content {
@@ -418,27 +414,22 @@ input[type="submit"]:hover {
 
 .logo-section:nth-child(1) {
     color: #5c62ff;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(2) {
     color: #5c62ff;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(3) {
     color: #5c62ff;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(4) {
     color: #5c62ff;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(5) {
     color: #5c62ff;
-    text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 header {
@@ -707,7 +698,11 @@ header {
 
 /* Desktop */
 @media screen and (min-width: 1155px) {
-    .mobile {
+   /* .mobile {
+        display: none;
+    } */
+
+    .desktop {
         display: none;
     }
 
