@@ -263,7 +263,8 @@ input[type="submit"]:hover {
 }
 
 .selected {
-    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: #5c62ff;
 }
 
 .main-content {
