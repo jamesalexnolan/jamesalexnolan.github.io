@@ -38,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 danoneArrow.classList.add('arrow-up');
 
                 //onclick scroll to top
-                danoneSection.scrollIntoView({ behavior: 'smooth' });
+                var projectContent = danoneSection.closest('.project-content');
+                projectContent.scrollTo({ behavior: 'smooth', top: 0 });
             }
             //close virgin menu if open 
             closeVirginMenu()
@@ -68,7 +69,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 signifyArrow.classList.add('arrow-up');
 
                 //onclick scroll to top
-                signfiySection.scrollIntoView({ behavior: 'smooth' });
+                var projectContent = signifySection.closest('.project-content');
+                projectContent.scrollTo({ behavior: 'smooth', top: 0 });
             }
             //close virgin menu if open 
             closeVirginMenu()
@@ -97,7 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 virginArrow.classList.add('arrow-up');
 
                 //onclick scroll to top
-                virginSection.scrollIntoView({ behavior: 'smooth' });
+                var projectContent = virginSection.closest('.project-content');
+                projectContent.scrollTo({ behavior: 'smooth', top: 0 });
             }
             //close signify menu if open
             closeSignifyMenu()
