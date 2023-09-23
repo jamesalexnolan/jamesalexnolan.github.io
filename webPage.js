@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     //PROJECTS PAGE//
-    if (window.location.href.match(/\/projects/)) {
+    if (window.location.href.match(/\projects/)) {
         var danoneSection = document.querySelector('.danone_project-section')
         var danoneArrow = document.querySelector('.danoneArrow');
 
@@ -38,8 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 danoneArrow.classList.add('arrow-up');
 
                 //onclick scroll to top
-                var projectContent = danoneSection.closest('.project-content');
-                projectContent.scrollTo({ behavior: 'smooth', top: 0 });
+                danoneSection.scrollIntoView({ behavior: 'smooth' });
             }
             //close virgin menu if open 
             closeVirginMenu()
@@ -69,8 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 signifyArrow.classList.add('arrow-up');
 
                 //onclick scroll to top
-                var projectContent = signifySection.closest('.project-content');
-                projectContent.scrollTo({ behavior: 'smooth', top: 0 });
+                signfiySection.scrollIntoView({ behavior: 'smooth' });
             }
             //close virgin menu if open 
             closeVirginMenu()
@@ -99,8 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 virginArrow.classList.add('arrow-up');
 
                 //onclick scroll to top
-                var projectContent = virginSection.closest('.project-content');
-                projectContent.scrollTo({ behavior: 'smooth', top: 0 });
+                virginSection.scrollIntoView({ behavior: 'smooth' });
             }
             //close signify menu if open
             closeSignifyMenu()
@@ -149,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     //CONTACT PAGE//
-    if (window.location.href.match(/\/contact/)) {
+    if (document.getElementById("contact-form")) {
         document.getElementById("contact-form").addEventListener("submit", function (event) {
             event.preventDefault(); // Prevent form submission
 
