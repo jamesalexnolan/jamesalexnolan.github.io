@@ -3,6 +3,10 @@ body {
     overflow-x: hidden;
 }
 
+.body_overflow-hidden {
+    overflow: hidden;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -121,6 +125,46 @@ hr {
 
 h3 {
     font-size: 45px;
+}
+
+.title_spacing {
+    margin-block-end: 0.5em;
+}
+
+.emoji_width {
+    width: 20px;
+}
+
+.font_text_color-1 {
+    color: #ffe786;
+}
+
+.font_text_color-2 {
+    color: rgb(252, 152, 152);
+}
+
+.font_text_color-3 {
+    color: #97c7ff;
+}
+
+.font_text-direction-col {
+    flex-direction: column;
+}
+
+.font_text-spacing-start {
+    margin-block-start: 0em;
+}
+
+.font_text-spacing-end {
+    margin-block-end: 0.3em;
+}
+
+.font_text-wrap {
+    flex-wrap: wrap;
+}
+
+.hr-margin-top {
+    margin-top: 50px;
 }
 
 h4 {
@@ -243,6 +287,15 @@ input[type="submit"]:hover {
     padding: 15px;
 }
 
+.project-flex_wrap {
+    flex-wrap: wrap;
+}
+
+.project-flex_wrap--padding {
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
 .col-1 {
     display: flex;
     flex: 0 0 40%;
@@ -259,6 +312,45 @@ input[type="submit"]:hover {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.project_title-main-font-spacing {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.contact-hero-text {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.contact-main-content_display {
+    display: block;
+}
+
+.contact-main-content_padding {
+    padding-top: 0%;
+}
+
+.project_image-styling {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_text-end-0 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.project_text-end-0-2 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0em;
 }
 
 .flex-column {
@@ -325,27 +417,27 @@ input[type="submit"]:hover {
 }
 
 .logo-section:nth-child(1) {
-    color: #e6b8d3;
+    color: #5c62ff;
     text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(2) {
-    color: #94b0c2;
+    color: #5c62ff;
     text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(3) {
-    color: #b8d3e6;
+    color: #5c62ff;
     text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(4) {
-    color: #d3e6b8;
+    color: #5c62ff;
     text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
 .logo-section:nth-child(5) {
-    color: #e6b8d3;
+    color: #5c62ff;
     text-shadow: 3px 3px 0px rgba(63, 107, 169, 0.3);
 }
 
