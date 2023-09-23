@@ -524,6 +524,11 @@ header {
         width: auto;
     }
 
+    .nav .nav__list_item {
+        margin: unset;
+        max-width: unset;
+    }
+
     .desktop {
         display: none;
     }
@@ -630,6 +635,11 @@ header {
         width: auto;
     }
 
+    .nav .nav__list_item {
+        margin: unset;
+        max-width: unset;
+    }
+
     .desktop {
         display: none;
     }
@@ -705,6 +715,11 @@ header {
 
     .desktop {
         display: none;
+    }
+
+    .nav .nav__list_item {
+        margin: 0 auto;
+        max-width: 1062px;
     }
 
     .aboutMe {
