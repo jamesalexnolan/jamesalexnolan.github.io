@@ -36,6 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
                 danoneArrow.classList.remove('arrow-down');
                 danoneArrow.classList.add('arrow-up');
+
+                //onclick scroll to top
+                danoneSection.scrollIntoView({ behavior: 'smooth' });
             }
             //close virgin menu if open 
             closeVirginMenu()
@@ -63,6 +66,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
                 signifyArrow.classList.remove('arrow-down');
                 signifyArrow.classList.add('arrow-up');
+
+                //onclick scroll to top
+                signfiySection.scrollIntoView({ behavior: 'smooth' });
             }
             //close virgin menu if open 
             closeVirginMenu()
@@ -89,6 +95,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
                 virginArrow.classList.remove('arrow-down');
                 virginArrow.classList.add('arrow-up');
+
+                //onclick scroll to top
+                virginSection.scrollIntoView({ behavior: 'smooth' });
             }
             //close signify menu if open
             closeSignifyMenu()
