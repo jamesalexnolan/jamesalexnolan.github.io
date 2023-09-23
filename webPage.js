@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     //PROJECTS PAGE//
-    if (window.location.href.match(/\projects/)) {
+    if (window.location.href.match(/\/projects/)) {
         var danoneSection = document.querySelector('.danone_project-section')
         var danoneArrow = document.querySelector('.danoneArrow');
 
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     //CONTACT PAGE//
-    if (document.getElementById("contact-form")) {
+    if (window.location.href.match(/\/contact/)) {
         document.getElementById("contact-form").addEventListener("submit", function (event) {
             event.preventDefault(); // Prevent form submission
 
