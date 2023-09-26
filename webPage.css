@@ -524,6 +524,10 @@ header {
         width: auto;
     }
 
+    .body_overflow-hidden{
+        overflow: unset;
+    }
+
     .mobile-project_margin {
         margin-top: 60px;
     }
