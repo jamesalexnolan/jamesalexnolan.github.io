@@ -257,30 +257,36 @@ input[type="submit"]:hover {
     }
 }
 
-.logo-section {
-    color: #5c62ff;
-    animation: pastelRainbowLogo 8s linear infinite;
-}
 
-/* .logo-section:nth-child(1) {
+.logo-section:nth-child(1) {
     color: #5c62ff;
+    animation: pastelRainbowLogo 3s linear infinite;
+    animation-delay: 0s;
 }
 
 .logo-section:nth-child(2) {
     color: #5c62ff;
+    animation: pastelRainbowLogo 3s linear infinite;
+    animation-delay: 0.2s;
 }
 
 .logo-section:nth-child(3) {
     color: #5c62ff;
+    animation: pastelRainbowLogo 3s linear infinite;
+    animation-delay: 0.4s;
 }
 
 .logo-section:nth-child(4) {
     color: #5c62ff;
+    animation: pastelRainbowLogo 3s linear infinite;
+    animation-delay: 0.6s;
 }
 
 .logo-section:nth-child(5) {
     color: #5c62ff;
-} */
+    animation: pastelRainbowLogo 3s linear infinite;
+    animation-delay: 0.8s;
+}
 
 @keyframes pastelRainbowLogo {
     0% {
