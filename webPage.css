@@ -257,6 +257,48 @@ input[type="submit"]:hover {
     }
 }
 
+.logo-section {
+    animation: pastelRainbowLogo 3s infinite;
+}
+
+@keyframes pastelRainbowLogo {
+    0% {
+        color: #FFC3A0;
+    }
+
+    12.5% {
+        color: #FFD1B3;
+    }
+
+    25% {
+        color: #FFE0C6;
+    }
+
+    37.5% {
+        color: #FFF0D9;
+    }
+
+    50% {
+        color: #E6F5FF;
+    }
+
+    62.5% {
+        color: #CCEDFF;
+    }
+
+    75% {
+        color: #B3E6FF;
+    }
+
+    87.5% {
+        color: #99DEFF;
+    }
+
+    100% {
+        color: #FFC3A0;
+    }
+}
+
 .nav-item:hover {
     cursor: pointer;
     font-style: italic;
