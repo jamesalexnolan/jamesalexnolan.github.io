@@ -258,8 +258,29 @@ input[type="submit"]:hover {
 }
 
 .logo-section {
-    animation: pastelRainbowLogo 3s infinite;
+    color: #5c62ff;
+    animation: pastelRainbowLogo 8s linear infinite;
 }
+
+/* .logo-section:nth-child(1) {
+    color: #5c62ff;
+}
+
+.logo-section:nth-child(2) {
+    color: #5c62ff;
+}
+
+.logo-section:nth-child(3) {
+    color: #5c62ff;
+}
+
+.logo-section:nth-child(4) {
+    color: #5c62ff;
+}
+
+.logo-section:nth-child(5) {
+    color: #5c62ff;
+} */
 
 @keyframes pastelRainbowLogo {
     0% {
@@ -455,26 +476,6 @@ input[type="submit"]:hover {
     font-weight: bold;
 }
 
-.logo-section:nth-child(1) {
-    color: #5c62ff;
-}
-
-.logo-section:nth-child(2) {
-    color: #5c62ff;
-}
-
-.logo-section:nth-child(3) {
-    color: #5c62ff;
-}
-
-.logo-section:nth-child(4) {
-    color: #5c62ff;
-}
-
-.logo-section:nth-child(5) {
-    color: #5c62ff;
-}
-
 header {
     display: flex;
     justify-content: flex-end;
@@ -566,7 +567,7 @@ header {
         width: auto;
     }
 
-    .body_overflow-hidden{
+    .body_overflow-hidden {
         overflow: unset;
     }
 
@@ -760,7 +761,7 @@ header {
 
 /* Desktop */
 @media screen and (min-width: 1155px) {
-   /* .mobile {
+    /* .mobile {
         display: none;
     } */
 
