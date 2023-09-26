@@ -118,7 +118,7 @@ hr {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     margin-right: 10px;
     font-weight: bolder;
 }
@@ -524,6 +524,10 @@ header {
         width: auto;
     }
 
+    .mobile-project_margin {
+        margin-top: 60px;
+    }
+
     .nav .nav__list_item {
         margin: unset;
         max-width: unset;
@@ -638,6 +642,7 @@ header {
     .nav .nav__list_item {
         margin: unset;
         max-width: unset;
+        padding-left: 0;
     }
 
     .desktop {
