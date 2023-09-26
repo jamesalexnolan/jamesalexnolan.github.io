@@ -597,7 +597,7 @@ header {
 
     .project-text {
         font-size: 15px !important;
-        width: 80% !important;
+        width: 90% !important;
     }
 
     .project-content:not(.exclude) {
